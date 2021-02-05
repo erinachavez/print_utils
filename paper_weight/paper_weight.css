@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+.container-fluid { padding: 0; }
+
+p, label {
+  font-family: "Helvetica", sans-serif;
+  line-height: 16px;
+  margin: 0;
+}
+
+label { font-weight: 600; }
+
+/* Margin */
+.sm-margin-left { margin-left: 5px; }
+.sm-margin-right { margin-right: 5px; }
+.sm-margin-top { margin-top: 5px; }
+.sm-margin-bottom { margin-bottom: 5px; }
+
+.margin-left { margin-left: 10px; }
+.margin-right { margin-right: 10px; }
+.margin-top { margin-top: 10px; }
+.margin-bottom { margin-bottom: 10px; }
+
+.lg-margin-left { margin-left: 25px; }
+.lg-margin-right { margin-right: 25px; }
+.lg-margin-top { margin-top: 25px; }
+.lg-margin-bottom { margin-bottom: 25px; }
+
+/* Cards */
+.card {
+  border: 1px solid var(--bright-red);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+/* Forms */
+form input,
+form select,
+button {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 5px 10px;
+}
+
+form input,
+form select {
+  width: 100%;
+}
+
+form button {
+  height: fit-content;
+  transition: ease all 0.2s;
+}
+  form button:hover {
+    background-color: #198754; /* $success, $green */
+    color: #fff;
+  }
+
+  form button:focus { outline: none; }
+
+/* Tables */
+table {
+  background-color: #fff;
+  border-collapse: collapse;
+  width: 100%;
+}
+  table tr th,
+  table tr td {
+    border: 2px solid #eee;
+    padding: 5px 10px;
+  }
