@@ -169,6 +169,7 @@ class Riso extends p5.Graphics {
       if (img.pixels[i+3] < 255) {
         newImage.pixels[i+3] = img.pixels[i+3] * alphaValue;
       } else {
+        // newImage.pixels[i+3] = img.pixels[i+3]; // TODO: sovle Ashton's valentine bug
         newImage.pixels[i+3] = (255 - (img.pixels[i] + img.pixels[i+1] + img.pixels[i+2])/3) * alphaValue;
       }
     }
